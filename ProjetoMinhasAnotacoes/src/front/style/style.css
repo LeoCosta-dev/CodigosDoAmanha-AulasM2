@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html{
+    height: 100%;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+header{
+    height: 10%;
+    width: 100%;
+}
+main{
+    display: flex;
+    height: 85%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(255, 255, 0);
+    padding: 5em;
+    gap: 10px;
+    border: solid 2px;
+    border-radius: 10px;
+    border-color: rgb(4, 4, 4);
+}
+footer{
+    height: 5%;
+    width: 100%;
+}
